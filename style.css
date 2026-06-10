@@ -1,0 +1,719 @@
+body{
+
+    background-color: black;
+    color: aliceblue;
+
+}
+
+
+
+nav {
+
+    background-color: rgb(12, 11, 11);
+
+    color: rgb(255, 255, 255);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 5px 60px;
+
+    height: 60px;
+
+    
+
+}
+
+.navbar {
+
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+
+}
+
+
+.navbar a {
+
+    color: white;
+
+    text-decoration: none;
+
+}
+
+.page {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+
+    gap: 10px;
+
+    background-color: blue;
+    width: 150px;
+
+    padding: 10px;
+    height: 20px;
+
+    border-radius: 30px;
+
+    text-decoration: none;
+
+}
+
+
+.hero{
+
+
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px;
+
+    gap: 20px;
+
+    height: 100%;
+    
+
+}
+
+
+
+.player{
+    color:white;
+
+    min-height: 50%;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,.75),
+        rgba(0,0,0,.75)
+    ),
+    url("stacks/the script.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    border-radius: 20px;
+
+    padding: 20px;
+
+
+}
+
+.cover{
+    width:100%;
+    border-radius:12px;
+    margin-bottom:20px;
+}
+
+.controls{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:25px;
+    margin:25px 0;
+}
+
+.icon-btn{
+    background:none;
+    border:none;
+    color:white;
+    font-size:22px;
+    cursor:pointer;
+}
+
+#playBtn{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    border:none;
+    background:#1DB954;
+    color:white;
+    font-size:24px;
+    cursor:pointer;
+}
+
+#progress{
+    width:100%;
+    cursor:pointer;
+
+}
+
+.time{
+    display:flex;
+    justify-content:space-between;
+    margin-top:10px;
+}
+
+.details{
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+
+    font-size: 20px;
+
+}
+
+.details h1{
+    font-size: 70px;
+    margin: 0;
+    line-height: 0.9;
+}
+
+.details h3{
+    color: #1DB954;
+    margin-top: 10px;
+}
+
+.details h2{
+
+    color: #1DB954;
+    margin-bottom: 10px;
+
+}
+
+
+.abstract {
+
+
+     background:
+    linear-gradient(
+        rgba(0,0,0,.75),
+        rgba(116, 90, 36, 0.75)
+    ),
+    url("stacks/album.jpg");
+
+    background-size: 900px;
+    background-position: bottom;
+    background-repeat:no-repeat;
+
+    
+
+}
+
+.abstract{
+    position:relative;
+
+    padding: 20px;
+    
+    border-radius: 20px;
+
+}
+
+.abs{
+
+
+    position:absolute;
+    right:20px;
+    bottom:20px;
+
+
+
+}
+
+
+.portfolio {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: rgb(12, 11, 11);
+    padding: 10px;
+
+    border-radius: 20px;
+
+}
+
+.port{
+
+    justify-content: space-between;
+
+    margin:0 20px 0;
+
+    
+}
+
+.line{
+
+    background-color: rgb(224, 224, 224);
+
+    height: 0.3px;
+
+    opacity: 0.1;
+
+    margin:0 60px 0;
+
+}
+
+.mini-nav{
+
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+
+    margin: 0 10px;
+}
+
+.mini-nav a{
+
+    text-decoration: none;
+
+    color: #1DB954;
+    
+    margin: 0 20px 0;
+
+}
+
+.num {
+
+
+    opacity: 0.5;
+
+}
+
+
+.bar{
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+
+
+
+.photos{
+
+
+    display: flex;
+    align-items: center;
+
+
+    gap: 20px;
+
+    margin: 10px;
+
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.link {
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+    gap: 20px;
+
+    margin: 10px;
+}
+
+.link .btn{
+
+
+color: #1DB954;
+
+}
+
+
+
+
+.link a{
+
+    
+    text-decoration: none;
+
+    color: white;
+
+}
+
+.abt-script{
+
+    background-color: rgb(12, 11, 11);
+
+    margin: 20px 0 0;
+
+    border-radius: 20px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    
+
+    height: 500px;
+
+}
+
+.about {
+
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+
+    font-size: 20px;
+
+    font-family: 'Times New Roman', Times, serif;
+
+    padding: 50px;
+
+}
+
+.about h1{
+
+
+   font-size: 70px;
+    margin: 0;
+    line-height: 0.9;
+
+}
+
+.about p{
+
+
+   margin-top: 50px;
+   margin-right: 100px;
+
+   font-size: 20px;
+
+}
+
+.about a{
+
+    background-color: #1DB954;
+    color: white;
+
+    justify-content: center;
+    display: flex;
+
+    width: 150px;
+
+    margin-top: 30px;
+
+    margin-bottom: 10px;
+
+    text-decoration: none;
+
+    padding: 10px 20px;
+
+    border-radius: 10px;
+
+}
+
+.img-script{
+
+    background-color: blue;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+
+       background:
+    linear-gradient(
+        rgba(0,0,0,.75),
+        rgba(116, 90, 36, 0.75)
+    ),
+    url("stacks/script");
+
+        -webkit-mask-image: linear-gradient(
+        to right,
+        transparent 0%,
+        black 20%,
+        black 80%,
+        transparent 100%
+    );
+
+    mask-image: linear-gradient(
+        to right,
+        transparent 0%,
+        black 20%,
+        black 80%,
+        transparent 100%
+    );
+    
+    height:500px;
+    
+}
+
+.img-script a{
+
+    font-size: 50px;
+
+    height: 80px;
+    width: 80px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #1DB954;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+
+    border-radius: 50%;
+
+    text-decoration: none;
+
+}
+
+.ftrd-project{
+
+    
+    background-color: rgb(12, 11, 11);
+    align-items: center;
+    justify-content: space-between;
+
+    border-radius: 20px;
+
+    margin: 15px 0;
+
+}
+
+.mininav {
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 60px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.mininav a{
+
+    color: #1DB954;
+    
+    text-decoration: none;
+
+}
+
+.mininav div{
+
+    font-size: 20px;
+
+
+}
+
+
+.ftrd-image{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+    background-color: rgb(12, 11, 11);
+
+    padding: 10px;
+
+    border-radius: 20px;
+
+}
+
+.ftrd-line{
+
+    background-color: rgb(107, 107, 107);
+
+    width: 1px;
+    height: 300px;
+
+
+}
+
+.ftrd{
+
+
+    display: flex;
+    justify-content: center;
+
+    
+
+}
+
+.ftrd-img {
+
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+
+    position: absolute;
+
+}
+
+.ftrd ol{
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    bottom: 15px;
+    right: 20px;
+    font-size: 20px;
+
+
+    position: relative;
+
+    list-style: none;
+}
+
+.ftrd .aut{
+
+    position: relative;
+
+    top: 10px;
+    opacity: 0.5;
+
+}
+
+.ftrd .autdate{
+
+
+    position: relative;
+
+    top: 20px;
+
+
+    font-size: 30px;
+
+    opacity: 0.5;
+}
+
+.ftrd-btn{
+
+
+position: relative;
+
+background-color: #1DB954;
+display: flex;
+justify-content: center;
+align-items: center;
+
+width: 50px;
+height: 50px;
+
+text-decoration: none;
+
+border-radius: 50%;
+
+color: white;
+
+top: 200px;
+left: 30px;
+
+}
+
+
+footer{
+
+    background-color: rgb(12, 11, 11);
+
+
+}
+
+.FOOT{
+
+    display: flex;
+    justify-content: space-around;
+
+    padding-top: 20px;
+
+}
+
+footer ul{
+
+    list-style: none;
+
+}
+
+.quick ul{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+
+}
+
+.menu a{
+
+    color: white;
+    text-decoration: none;
+
+
+}
+
+.subscribe-form {
+    display: flex;
+    max-width: 600px;
+}
+
+.subscribe-form input {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #222;
+    background: #111;
+    color: #fff;
+}
+
+.subscribe-form button {
+    padding: 15px 25px;
+    border: none;
+    background: #6BE04D;
+    color: white;
+    cursor: pointer;
+}
+
+.Credits{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+
+.follow a{
+
+    display: flex;
+    justify-content: space-around;
+
+    color: white;
+    
+    text-decoration: none;
+}
+
+.follow i:hover{
+
+    color: #1DB954;
+    
+
+
+}
+
+.bar-line{
+
+
+    background-color: white;
+
+    height: 1px;
+
+    opacity: 0.1;
+
+
+
+}
+
